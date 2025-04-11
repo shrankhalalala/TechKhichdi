@@ -8,8 +8,10 @@ Members:
 # 🚀 TechKhichdi
 **TechKhichdi** is a smart, lightweight **tech stack recommender** that helps developers, startups, and learners decide the best technologies to use based on their project needs, goals, and constraints. Think of it as your personal chef – but for cooking up the perfect software stack!
 
----
+<b>Why TechKhichdi?</b><br>
+Because picking a tech stack shouldn’t feel like solving a Rubik’s Cube blindfolded. We take all the confusing bits — frontend, backend, database, hosting — and mix them into one tasty, tailored recipe. Just like khichdi, but for your code. 🍛💻✨
 
+---
 ## 🧠 What is TechKhichdi?
 
 Choosing the right technologies for a software project can be overwhelming – frontend frameworks, backend languages, databases, hosting platforms... so many choices!
