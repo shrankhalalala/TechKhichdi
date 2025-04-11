@@ -179,11 +179,13 @@ textarea {
 .results-container {
   max-width: 600px;
   margin: 40px auto;
-  padding: 24px;
+  padding: 2rem;
   background: #fdfdfd;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   animation: fadeIn 0.5s ease;
+  width: 90%;
+  transition: all 0.4s ease;
 }
 
 .results-title {
@@ -211,10 +213,10 @@ textarea {
   margin-top: 2rem;
   background: #f8f9fa;
   padding: 1.5rem 2rem;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   animation: fadeIn 0.4s ease;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 /* Top-Right Pencil Button */
