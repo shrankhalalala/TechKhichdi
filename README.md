@@ -1,4 +1,4 @@
-# 🚀 TechKhichdi
+![image](https://github.com/user-attachments/assets/47e2c51a-4652-435a-acdb-d786c4680718)# 🚀 TechKhichdi
 
 **TechKhichdi** is a smart, lightweight **tech stack recommender** that helps developers, startups, and learners decide the best technologies to use based on their project needs, goals, and constraints. Think of it as your personal chef – but for cooking up the perfect software stack!
 
@@ -33,5 +33,8 @@ TechKhichdi simplifies this by:
 | Routing        | React Router DOM   |
 | Styling        | CSS                |
 | Backend        | Flask              |
+| Recommendation | Python             |
+
+
 
 
