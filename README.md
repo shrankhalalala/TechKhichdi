@@ -43,25 +43,28 @@ TechKhichdi simplifies this by:
 🚧 Future Enhancements
 Here are some improvements and features we plan to add in the future:
 
-- 🔍 AI-Powered Stack Suggestions
+- 🔍 <b>AI-Powered Stack Suggestions:</b>
 Use AI to recommend the most suitable stack based on user preferences, industry trends, and project scale.
 
-- 📦 Boilerplate Project Generator
+- 📦 <b>Boilerplate Project Generator:</b>
 Auto-generate starter code and folder structures based on selected stack.
 
-- 📊 Tech Stack Comparison Tool
+- 📊 <b>Tech Stack Comparison Tool:</b>
 Compare pros, cons, and popularity of different technologies.
 
-- 📈 Show Latest Trend Charts of Tech Stacks
+- 📈 <b>Show Latest Trend Charts of Tech Stacks:</b>
 Integrate trend data visualizations from sources like GitHub stars, Stack Overflow surveys, or npm downloads to show what’s hot and what’s fading in real time.
 
-- 📱 Mobile & Desktop Recommendations
+- 📁 b>Downloadable Reports</b>
+Allow users to download a summary of their recommended stack in PDF format.
+
+- 📱 <b>Mobile & Desktop Recommendations:</b>
 Extend support to mobile and desktop app tech stacks (e.g., Flutter, Electron).
 
-- 💬 Community Feedback & Voting
+- 💬 <b>Community Feedback & Voting:</b>
 Let users vote or comment on specific tech stack combos.
 
-- 🧠 Smart Questionnaire
+- 🧠 <b>Smart Questionnaire:</b>
 Add more refined, dynamic questions that adapt based on previous answers.
 
 
