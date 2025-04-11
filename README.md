@@ -27,29 +27,11 @@ TechKhichdi simplifies this by:
 
 ## 🛠️ Tech Stack (for TechKhichdi itself)
 
-| Category        | Tech Used          |
+| Category        | Tech Used         |
 |----------------|--------------------|
 | Frontend       | React.js           |
 | Routing        | React Router DOM   |
-| Styling        | CSS / Tailwind CSS |
-| Backend (optional) | Node.js / Express *(if added)* |
-| Hosting        | Netlify / Vercel *(optional)* |
+| Styling        | CSS                |
+| Backend        | Flask              |
 
----
 
-## 🚦 Getting Started
-
-### Prerequisites
-
-Make sure you have:
-
-- Node.js (v14 or above)
-- npm or yarn
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/TechKhichdi.git
-cd TechKhichdi
-npm install
-npm start
