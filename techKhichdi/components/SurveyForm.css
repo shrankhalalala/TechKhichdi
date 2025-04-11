@@ -1,42 +1,64 @@
-
-  * {
+* {
     font-family: 'Poppins', sans-serif;
   }
-
-  .survey-container {
-	background-color: #ffffff;
-	margin: 100px;
-	padding: 30px;
-	border-radius: 100px;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-	width: 90%;
-	max-width: 600px;
-  }
-  .survey-title {
-	text-align: center;
-	font-size: 2rem;
-	margin-bottom: 25px;
-	color: #333;
-  }
-
-  .survey-form {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-  }
-
-  .form-group {
-	display: flex;
-	flex-direction: column;
-  }
   
-  .form-group label {
-	margin-bottom: 6px;
-	font-weight: 600;
-	color: #444;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    #202060,
+    #602080,
+    #b030b0,
+    #6c91bf,
+    #5bc8af
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  input[type="text"],
+.survey-container {
+  background-color: #ffffff;
+  margin: 100px;
+  padding: 30px;
+  border-radius: 100px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Title */
+.survey-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form */
+.survey-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Grouping Inputs */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Inputs & Selects */
+input[type="text"],
 input[type="email"],
 textarea,
 select {
@@ -56,6 +78,7 @@ select:focus {
   outline: none;
 }
 
+/* Checkbox Group */
 .checkbox-group,
 .radio-group {
   display: flex;
@@ -99,14 +122,14 @@ select:focus {
   background-color: #63228f;
 }
 
-  @media (max-width: 600px) {
-	.survey-container {
-	  padding: 20px;
-	}
-  
-	.checkbox-group,
-	.radio-group {
-	  flex-direction: column;
-	}
+/* Responsive */
+@media (max-width: 600px) {
+  .survey-container {
+    padding: 20px;
   }
-  
+
+  .checkbox-group,
+  .radio-group {
+    flex-direction: column;
+  }
+}
