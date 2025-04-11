@@ -38,6 +38,34 @@ TechKhichdi simplifies this by:
 | Backend        | Flask              |
 | Recommendation | Python             |
 
+---
+
+🚧 Future Enhancements
+Here are some improvements and features we plan to add in the future:
+
+- 🔍 AI-Powered Stack Suggestions
+Use AI to recommend the most suitable stack based on user preferences, industry trends, and project scale.
+
+- 📦 Boilerplate Project Generator
+Auto-generate starter code and folder structures based on selected stack.
+
+- 📊 Tech Stack Comparison Tool
+Compare pros, cons, and popularity of different technologies.
+
+- 📈 Show Latest Trend Charts of Tech Stacks
+Integrate trend data visualizations from sources like GitHub stars, Stack Overflow surveys, or npm downloads to show what’s hot and what’s fading in real time.
+
+- 📱 Mobile & Desktop Recommendations
+Extend support to mobile and desktop app tech stacks (e.g., Flutter, Electron).
+
+- 💬 Community Feedback & Voting
+Let users vote or comment on specific tech stack combos.
+
+- 🧠 Smart Questionnaire
+Add more refined, dynamic questions that adapt based on previous answers.
+
+
+
 
 
 
