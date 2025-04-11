@@ -40,7 +40,7 @@ TechKhichdi simplifies this by:
 
 ---
 
-🚧 Future Enhancements
+## 🚧 Future Enhancements
 Here are some improvements and features we plan to add in the future:
 
 - 🔍 <b>AI-Powered Stack Suggestions:</b>
