@@ -37,12 +37,6 @@ TechKhichdi simplifies this by:
 
 ---
 
-## 📸 Screenshots
-
-> _Include some screenshots or a demo GIF here to showcase the user flow._
-
----
-
 ## 🚦 Getting Started
 
 ### Prerequisites
