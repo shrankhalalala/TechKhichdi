@@ -65,7 +65,6 @@ export default function SurveyForm() {
           topPicks: result.topPicks || [],
           categorized: result.categorized || {},
         });
-        alert("Recommendations ready! Scroll down to see results.");
       } else {
         alert("Something went wrong: " + result.error);
       }
@@ -123,9 +122,7 @@ export default function SurveyForm() {
                     <ul>
                       {tools.map((tool, index) => (
                         <li key={index}>
-                          {typeof tool === "object"
-                            ? `${tool.name} (${(tool.score * 100).toFixed(1)}%)`
-                            : tool}
+                          {typeof tool === "object" ? `${tool.name}` : tool}
                         </li>
                       ))}
                     </ul>
