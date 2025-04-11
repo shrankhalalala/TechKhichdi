@@ -19,7 +19,7 @@ const Landing = () => {
   const navigate = useNavigate();
 
   const handleNext = () => {
-    navigate("/survey");
+    navigate("/surveyform");
   };
 
   const cardBaseStyle = {
@@ -99,7 +99,12 @@ const Landing = () => {
             </Typography>
 
             <Grid container spacing={3} sx={{ marginBottom: 3 }}>
-              {renderCard("🌐 Browser-based", "Browser", projectKind, setProjectKind)}
+              {renderCard(
+                "🌐 Browser-based",
+                "Browser",
+                projectKind,
+                setProjectKind
+              )}
               {renderCard("📱 App", "App", projectKind, setProjectKind)}
             </Grid>
 
@@ -115,14 +120,16 @@ const Landing = () => {
               </>
             )}
 
-            {(projectKind === "Browser" || (projectKind === "App" && appType)) && (
+            {(projectKind === "Browser" ||
+              (projectKind === "App" && appType)) && (
               <Button
                 variant="contained"
                 size="large"
                 onClick={handleNext}
                 sx={{
                   marginTop: 4,
-                  background: "radial-gradient(circle at center, #b030b0, #602080)",
+                  background:
+                    "radial-gradient(circle at center, #b030b0, #602080)",
                   color: "white",
                   fontWeight: "bold",
                   paddingX: 5,
@@ -131,7 +138,8 @@ const Landing = () => {
                   textTransform: "none",
                   fontSize: "1rem",
                   "&:hover": {
-                    background: "radial-gradient(circle at center, #5bc8af, #202060)",
+                    background:
+                      "radial-gradient(circle at center, #5bc8af, #202060)",
                   },
                 }}
               >
