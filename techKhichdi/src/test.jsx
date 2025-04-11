@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Container, Typography, Box, Paper } from "@mui/material";
-import Landing from "../components/Landing";
-import "./index.css"
+import Landing from "./components/Landing";
 
 function App() {
   const [stage, setStage] = useState("landing");
@@ -24,13 +23,12 @@ function App() {
     >
       <Container maxWidth="md">
         <Paper
-          elevation={5}
+          elevation={6}
           sx={{
             padding: 4,
             borderRadius: 4,
-            backgroundColor: "#fff",
-            backdropFilter: "blur(10px)",
-            color: "white",
+            backgroundColor: "#fff", // plain paper
+            color: "#202060",
           }}
         >
           <Typography
@@ -40,11 +38,10 @@ function App() {
             sx={{
               fontWeight: 700,
               fontFamily: "Poppins, sans-serif",
-              color: "#000000",
-              textShadow: "2px 2px 10px rgba(0,0,0,0.4)",
+              color: "#202060",
             }}
           >
-            🍛 TechKhichdi
+            🍛 Tech Stack Recommender
           </Typography>
 
           <Box mt={5}>
